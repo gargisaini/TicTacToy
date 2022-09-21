@@ -1,0 +1,28 @@
+Steps for Creating the Tic Tac Toy Game
+
+1 Convert constrain layout to table layout for better UI.
+
+2 Crate 3 rows add three buttons give them the req padding and margin.
+
+3 Add gravity attribute for the loyout to come to the center of the screen.
+
+4 Add onclick function to all the button.
+
+5 In onclick finction in java file use view to identify which button is         clicked using switch condition
+
+6 Then crate the game logic i.e. we have two players we have to create  two array list which will hold the data of both the players.
+
+7 A function playgame is created using the argument i.e there cellid and which button is selected.
+
+8 Two if condition is used to change the color of the button when selected and letting other have its chance
+
+9 Then we have to check the winner then stop the game after one player has won
+
+10 Here player 2 is computer so we have to create logic for computer to play its game
+
+11 Create an arrylist to hold the the cellid of the empty/unused  button.
+
+12 Then genrating random no from the empty button and giving that number its button id then calling playgame function for it to play as player two
+
+13 The autoplay is called after player 1 has palyed
+ 
